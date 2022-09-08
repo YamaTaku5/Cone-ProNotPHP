@@ -23,6 +23,9 @@ export default{
 </script>
 
 <style>
+.alert-info{
+  font-weight: bold;
+}
 .bg_pattern .container{
   width: 65%;
   background: aliceblue;

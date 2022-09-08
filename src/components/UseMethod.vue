@@ -32,6 +32,16 @@
       <img src="../img/pose_gutspose_business - コピー.png" id="imgWomen">
       <img src="../img/pose_gutspose_business.png" id="imgMen">
     </div>
+    <!-- 詳細 -->
+    <div class="coneproDetail">
+      <h1>ConePro</h1>
+      <ul>
+        <li>社内のプログラマーと面談</li>
+        <li>プログラミングに関する質問</li>
+        <li>プログラミングに関するメモを作成・閲覧</li>
+      </ul>
+    </div>
+    
   </div>
 </template>
 
@@ -272,6 +282,23 @@
     transform: translate(0px, -70px);
     opacity: 1;
   }
+}
+
+.coneproDetail{
+  position: relative;
+  top: 50%;
+  left: 0;
+  right: 0;
+}
+.coneproDetail ul{
+  color: #1e366a;
+  border-top: solid #1e366a 1px;/*上のボーダー*/
+  border-bottom: solid #1e366a 1px;/*下のボーダー*/
+  padding: 0.5em 0 0.5em 1.5em;
+  list-style-position: inside;
+}
+.coneproDetail li{
+  text-indent: 0%;
 }
 </style>
 
